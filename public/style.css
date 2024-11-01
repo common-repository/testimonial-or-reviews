@@ -1,0 +1,75 @@
+.orphita-testimonials-wrapper{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.orphita-testimonials-wrapper *{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+.orphita-testimonial-or-reviews-col-1 {
+    width: 100%;
+    float: left;
+}
+.orphita-testimonial-or-reviews-col-2{
+    width: 50%;
+    float: left;
+}
+.orphita-testimonial-or-reviews-col-3 {
+    width: 33.33%;
+    float: left;
+}
+.orphita-testimonial-or-reviews-col-4{
+    width: 25%;
+    float: left;
+}
+.orphita-testimonial-or-reviews-col-5{
+    width: 20%;
+    float: left;
+}
+.orphita-testimonial-or-reviews-col-6{
+    width: 16.66%;
+    float: left;
+}
+
+@media only screen and (min-width: 601px)and (max-width: 900px){
+    .orphita-testimonial-or-reviews-col-6, .orphita-testimonial-or-reviews-col-5{
+        width: 33.33%;
+    }
+
+    .orphita-testimonial-or-reviews-col-4, .orphita-testimonial-or-reviews-col-3{
+        width: 50%;
+    }
+    .image-ultimate-responsive-2{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .orphita-testimonial-or-reviews-col-6, .orphita-testimonial-or-reviews-col-5{
+        width: 50%;
+    }
+
+    .orphita-testimonial-or-reviews-col-4, .orphita-testimonial-or-reviews-col-3{
+        width: 100%;
+    }
+    .orphita-testimonial-or-reviews-col-2{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .orphita-testimonial-or-reviews-col-6, .orphita-testimonial-or-reviews-col-5{
+        width: 100%;
+    }
+
+}
+.owl-item .orphita-testimonial-or-reviews-col-1,
+.owl-item .orphita-testimonial-or-reviews-col-2,
+.owl-item .orphita-testimonial-or-reviews-col-3,
+.owl-item .orphita-testimonial-or-reviews-col-4,
+.owl-item .orphita-testimonial-or-reviews-col-5,
+.owl-item .orphita-testimonial-or-reviews-col-6{
+     width: 100%;
+}
